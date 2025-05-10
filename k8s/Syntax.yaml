@@ -26,3 +26,10 @@ cars:
   - make: Honda
     model: Accord
     year: 2019
+
+# k8s objects representation
+apiVersion: v1
+kind: Pod
+metadata:
+spec:
+  containers:
