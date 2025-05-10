@@ -1,0 +1,28 @@
+# - means comment, this line will be ignored
+
+# key values 
+key: value
+name: myapp
+city: New York
+
+# collection of data as a set of key-value pairs
+# dictionary
+person:
+  name: John Doe
+  age: 30
+  city: New York
+
+# list of items
+# array
+fruits:
+  - apple
+  - banana
+  - orange
+# nested dictionary
+cars:
+  - make: Toyota
+    model: Camry
+    year: 2020
+  - make: Honda
+    model: Accord
+    year: 2019
