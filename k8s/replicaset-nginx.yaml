@@ -1,0 +1,21 @@
+# ReplicaSet template
+# This file defines a ReplicaSet for an Nginx application in Kubernetes.
+# It specifies the number of replicas, the selector for matching pods, and the container image to use.
+# This is a ReplicaSet configuration file for an Nginx application.
+
+
+apiVersion: apps/v1
+kind: ReplicaSet
+metadata:
+  name: nginx
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: nginx
+      spec: 
+        containers:
+        - name: nginx
+          image: nginx
+          ports:
+          - containerPort: 80
