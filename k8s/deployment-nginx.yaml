@@ -1,4 +1,7 @@
 # deployment template for nginx
+# This file defines a Deployment for an Nginx application in Kubernetes.
+# It specifies the number of replicas, the selector for matching pods, and the container image to use.
+# This is a Deployment configuration file for an Nginx application.
 apiVersion: apps/v1
 kind: Deployment
 metadata:
